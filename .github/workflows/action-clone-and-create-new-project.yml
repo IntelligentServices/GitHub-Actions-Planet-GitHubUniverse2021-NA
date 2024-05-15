@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       projectID:
-        description: "Specify the unique Project ID of project that will be copied from"
+        description: "Specify the unique Project ID of project that will be copied from "
         default: "13621042"
         required: true
       descNewProject:
